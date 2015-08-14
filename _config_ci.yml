@@ -1,0 +1,20 @@
+# Site settings
+title: Partner Catalyst Team Case Studies
+email: sarasp@outlook.com
+description: > # this means to ignore newlines until "baseurl:"
+  testbed for case study publication
+url: http://partnercatalyst.azurewebsites.net" # the base hostname & protocol for your site
+twitter_username: saraspalding
+github_username:  catalystcode
+encoding: utf-8
+
+# Build settings
+# markdown: redcarpet
+# highlighter: pygments
+# extensions: [tables fenced_code_blocks]
+
+exclude: [vendor]
+kramdown:
+   input: GFM
+gems:
+  - jekyll-sitemap
